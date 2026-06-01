@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ПАРОЛЬ -->
+
+<div class="password-screen" id="passwordScreen">
+
+  <div class="password-box">
+
+    <h1>ВВЕДИ ПАРОЛЬ</h1>
+
+    <p class="hint">
+      это важная дата для нас...
+    </p>
+
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="пароль"
+    >
+
+    <button onclick="checkPassword()">
+      ОТКРЫТЬ
+    </button>
+
+    <p id="errorText"></p>
+
+  </div>
+
+</div>
+
+<!-- САЙТ -->
+
+<div class="main-site hidden" id="mainSite">
+
+  <!-- ПРИВЕТСТВИЕ -->
+
+  <section class="block">
+
+<img
+src="111.png""
+style="
+width:1435px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+  </section>
+
+  <!-- МУЗЫКА -->
+
+  <section class="block">
+
+    <h2>
+      НО СНАЧАЛА ВКЛЮЧИМ МУЗЫКУ
+    </h2>
+
+    <div class="music-card">
+
+      <div class="music-cover"></div>
+
+      <div>
+
+        <h3>ghost boy</h3>
+
+        <p>
+          эта песня ассоциируется у меня с тобой
+        </p>
+
+      </div>
+
+    </div>
+
+    <button onclick="playMusic()">
+      ЛАПКОЙ ТЫК СЮДА
+    </button>
+
+    <audio id="musicAudio" src="music.mp3"></audio>
+
+  </section>
+
+  <!-- ТЕКСТ -->
+
+  <section class="block">
+<img
+src="брбрбр.png""
+style="
+width:1435px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+  </section>
+
+  <!-- ЦИФРЫ -->
+
+  <section class="block">
+        <img
+src="тайм.png""
+style="
+width:1435px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+
+  </section>
+
+  <!-- МАЛЕНЬКИЙ БЛОК -->
+
+  <section class="block">
+    <img
+src="333.png""
+style="
+width:1435px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+
+
+  </section>
+
+  <!-- ВОЗРАСТ -->
+
+  <section class="block age-block">
+    <img
+src="кат.png""
+style="
+width:1435px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+  </section>
+
+  <!-- ГОСТИ -->
+
+  <section class="block">
+ <img
+src="гости.png""
+style="
+width:1400px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+  </section>
+
+  <!-- ТОРТ -->
+
+  <section class="block">
+
+    <h2>
+      А ТЕПЕРЬ ПРИШЛО ВРЕМЯ ТОРТИКА(жаль не настоящего)
+    </h2>
+    <img
+src="торт.png""
+style="
+width:1400px;
+cursor:pointer;
+border: radius 500px;
+"
+>
+
+    <input
+      type="text"
+      id="wishInput"
+      placeholder="напиши желание..."
+    >
+
+    <button onclick="blowCandle()">
+      ЗАДУТЬ СВЕЧКУ
+    </button>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
