@@ -15,7 +15,7 @@ function checkPassword(){
 
     document.getElementById('errorText')
     .innerText =
-    'неправильный пароль... это важная дата для вас';
+    'неправильный пароль... харашенька падумай';
 
   }
 
